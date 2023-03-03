@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">  
+	<link href="css/styles.css" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   </head>
 <body>
 <nav id="mine" class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/just-a-placeholder-logo.svg" alt="logo"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="pages/products.html">Products</a>
+          <a class="nav-link active" aria-current="page" href="pages/menu.html">Menu</a>
+            
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/services.html">Services</a>
+          <a class="nav-link" href="pages/contactus.html">Contact Us</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="pages/ordernow.html">Order Now </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="pages/about-us.html">About</a></li>
             <li><a class="dropdown-item" href="pages/contact.html">Contact Us</a></li>
@@ -50,11 +50,11 @@
     <div class="row gx-5 align-items-center justify-content-center">
       <div class="teaser col-sm-12 col-md-10 col-lg-8">
         <div class="my-5 text-center">
-          <h1 class="text-white  display-5 fw-bolder  mb-2">A Bootstrap 5 template</h1>
-          <p class="text-white  lead fw-normal mb-4">Roof party bespoke gochujang, pop-up VHS twee jianbing craft beer</p>
+          <h1 class="text-white  display-5 fw-bolder  mb-2">Natural Valley Juice Bar & Cofffee</h1>
+          <p class="text-white  lead fw-normal mb-4">Juice bar in Philadelphia, PA specializing in healthy drinks and foods</p>
           <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-            <a class="special-link btn btn-primary btn-lg px-4 me-sm-3" href="pages/products.html">Get Started</a>
-            <a class="btn btn-outline-light btn-lg px-4" href="https://icons.getbootstrap.com/" target="_blank"><i class="bi bi-robot"></i> Learn More</a>
+            <a class="special-link btn btn-primary btn-lg px-4 me-sm-3" href="pages/menu">Menu</a>
+            <a class="btn btn-outline-light btn-lg px-4" href="https://icons.getbootstrap.com/" target="_blank"><i class="bi bi-cup-straw"></i>Order Now</a>
           </div>
         </div>
       </div>
@@ -67,6 +67,15 @@
 
 <script src="js/scripts.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-   
+    
+ 
+<footer class="d-flex align-items-center justify-content-between p-4">
+<p class="ms-3">&copy; 2023 Company, Inc. All rights reserved.</p>	
+<div class="d-flex">	
+	<p class="ms-3"><a class="link-dark" href="#"><i class="bi bi-tiktok fs-3"></i></a></p>
+	<p class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram fs-3"></i></a></p>	
+	<p class="ms-3"><a class="link-dark" href="#"><i class="bi bi-twitter fs-3"></i></a></p>
+</div>	
+</footer>
 </body>
 </html>
