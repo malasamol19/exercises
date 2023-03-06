@@ -11,6 +11,7 @@ header.my-background {
   background-image: url(../images/pexels-element-digital-775031.jpg);
   background-size: cover;
   background-position: center;
+    height: 100vh; 
 }
 /*change the background position on big screens*/
 @media (min-width: 1200px) {
@@ -20,6 +21,9 @@ header.my-background {
 }
 header .teaser {
   background-color: rgba(000, 000, 000, 0.6);
+    
+        
+        
 }
 .navbar-brand img{
     height: 40px
