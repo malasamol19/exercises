@@ -49,8 +49,9 @@ font-family: 'GFS Didot', serif;}
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-    margin-left: auto;
-    margin-right: auto; 
+    margin: auto;
+    
+    
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */ 
